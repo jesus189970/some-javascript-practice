@@ -6,14 +6,14 @@
 // let random = Math.random();
 
 // if(random < 0.5) {
-    // console.log("Your number is less than 0.5")
-    // console.log(random)
+// console.log("Your number is less than 0.5")
+// console.log(random)
 // }
 
 
 // if(random >= 0.5) {
-    // console.log("Your nunmber is greater thn 0.5")
-    // console.log(random)
+// console.log("Your nunmber is greater thn 0.5")
+// console.log(random)
 // }
 
 // const dayOfWeek = prompt('Enter a day.').toLowerCase()
@@ -33,7 +33,7 @@
 // 10 - 65 adult $20
 // 65+ senior $10 
 
-const age = 1;
+// const age = 1;
 
 // if (age < 5) {
 //     console.log('You are a baby, you get in for free')
@@ -44,3 +44,21 @@ const age = 1;
 // } else {
 //     console.log('You are a senior, pay $10')
 // }
+
+const password = prompt('please enter a new password')
+
+// password must be 6+
+
+
+if (password.length >= 6) {
+    if (password.indexOf(' ') === -1) {
+        console.log('Valid Password')
+    } else {
+        console.log('passord cannot contain spaces')
+    }
+} else {
+    console.log('Password too short, must be 6 characters')
+}
+
+// password cannot include space
+
