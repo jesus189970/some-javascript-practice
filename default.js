@@ -45,20 +45,119 @@
 //     console.log('You are a senior, pay $10')
 // }
 
-const password = prompt('please enter a new password')
+// const password = prompt('please enter a new password')
 
 // password must be 6+
 
 
-if (password.length >= 6) {
-    if (password.indexOf(' ') === -1) {
-        console.log('Valid Password')
-    } else {
-        console.log('passord cannot contain spaces')
-    }
-} else {
-    console.log('Password too short, must be 6 characters')
-}
+// if (password.length >= 6) {
+//     if (password.indexOf(' ') === -1) {
+//         console.log('Valid Password')
+//     } else {
+//         console.log('passord cannot contain spaces')
+//     }
+// } else {
+//     console.log('Password too short, must be 6 characters')
+// }
 
 // password cannot include space
 
+// const userInput = prompt('enter something');
+
+// if(userInput) {
+//     console.log("Truthy")
+// } else {
+//     console.log("falsy")
+
+
+// if (1) {
+//     console.log('Truthy')
+// } else {
+//     console.log('Falsy')
+// }
+
+// ******LOGICAL OPERATORS && (and) || (or)
+
+// const password = prompt('Enter your password')
+
+// if (password.length >= 6 && password.indexOf(' ') === -1) {
+//     console.log('Valid password')
+// } else {
+//     console.log('Incorerect password')
+// }
+
+
+// || OR OPERATOR
+
+// 0-5 free
+// 5-10 $10
+// 10-65 $20
+// 65+ free
+
+// const age = -10
+// if(age >= 0 && age < 5 || age >= 65) {
+//     console.log('Free')
+// } else if(age >= 5 && age < 10) {
+//     console.log('$10')
+// } else if(age >= 10 && age < 65) {
+//     console.log('$20')
+// } else {
+//     console.log("Invalid age")
+// }
+
+// ! (NOT OPERATOR)
+
+// const firstName = prompt('Enter your first name')
+// if(!firstName) {
+//     firstName = prompt('Try again')
+// }
+
+
+// const age = 8;
+// if (!(age >= 0 && age < 5 || age >= 65)) {
+//     console.log('You are not a baby or senior')
+// }
+
+//SWITCH AND CASE
+
+const day = 6;
+switch(day) {
+    case 1:
+        console.log('Monday');
+        break;
+    case 2:
+        console.log('Tuesday');
+        break;
+    case 3:
+        console.log('Wednesday');
+        break;
+    case 4:
+        console.log('Thursday');
+        break;
+    case 5:
+        console.log('Friday');
+        break;
+    case 6:
+    case 7:
+        console.log('Weekend')
+        break;
+    default:
+        console.log('I dont know that')
+}
+
+
+// if (day === 1) {
+//     console.log('Monday')
+// }
+// else if (day === 2) {
+//     console.log('Tuesday')
+// } else if (day === 2) {
+//     console.log('Wednesday')
+// } else if (day === 2) {
+//     console.log('Thursday')
+// } else if (day === 2) {
+//     console.log('Friday')
+// }
+// else {
+//     console.log('I dont know that')
+// }
